@@ -1,4 +1,4 @@
-package week2;
+package scannerorg;
 
 public class MethodExercises {
     public static void main(String[] args) {

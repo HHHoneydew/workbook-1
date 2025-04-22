@@ -1,6 +1,6 @@
-package week2;
+package week2.oop3;
 
-public class MethodsExplained {
+public class App {
     public static void main(String[] args) {
 
     }
