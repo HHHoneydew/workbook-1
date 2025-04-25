@@ -129,8 +129,33 @@ public class Exercises {
             e.printStackTrace();
         }
     }
+        static class Book {
+        String title;
+        String author;
 
-    // 8
-}
+        public Book(String title, String author) {
+            this.title = title;
+            this.author = author;
+        }
+    }
 
+    // 8 read a file and build an array of book objects
+        public static void saveBooksToFile() {
+            Book[] books = {
+                    new Book("Green Eggs and Ham", "Dr. Seuss"),
+                    new Book("The Very Hungry Caterpillar", "Eric Carle"),
+                    new Book("Charlotte's Web", "E. B. White")
+            };
 
+            try {
+                FileWriter writer = new FileWriter("books.txt");
+                for (int i = 0; i < books.length; i++) {
+                }
+                writer.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+            // 9 read file and create book object
+        }
